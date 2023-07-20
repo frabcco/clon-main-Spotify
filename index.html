@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="icon" href="img/Spotify_logo_without_text.ico.png">
+		<title>Spotify</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main class="main container">
+			<!-- TopBar -->
+			<div class="topbar">
+				<div class="container-arrows">
+					<div class="container-arrow-left">
+						<i class="fa-solid fa-chevron-left"></i>
+					</div>
+					<div class="container-arrow-right">
+						<i class="fa-solid fa-chevron-right"></i>
+					</div>
+				</div>
+				<div class="buttons-user">
+					<a href="#" class="btn-register">Registrarte</a>
+					<a href="#" class="btn-login btn-full">Iniciar sesión</a>
+				</div>
+			</div>
+			<!-- SideBar -->
+			<nav class="navbar">
+				<div class="container-logo">
+					<a href="#" class="link-logo">
+						<svg viewBox="0 0 1134 340" class="logo-svg">
+							<title>Spotify</title>
+							<path
+								fill="currentColor"
+								d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"
+							></path>
+						</svg>
+					</a>
+				</div>
+				<ul class="nav-main">
+					<li>
+						<a href="#"> <i class="fa-solid fa-house"></i>Inicio </a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-magnifying-glass"></i>Buscar</a
+						>
+					</li>
+					<li>
+						<a href="#"
+							><i class="fa-solid fa-bookmark"></i>Tu biblioteca</a
+						>
+					</li>
+				</ul>
+
+				<div class="extra-options">
+					<button class="btn-create-list">
+						<i class="fa-solid fa-plus"></i>
+						Crear Lista
+					</button>
+					<button class="btn-favorite-songs">
+						<i class="fa-solid fa-heart"></i>
+						Canciones que te gustan
+					</button>
+				</div>
+
+				<div class="container-links">
+					<div class="container-links-legal">
+						<a href="https://www.spotify.com/ec/legal/">Legal</a>
+						<a href="https://www.spotify.com/ec/privacy/"
+							>Centro de Privacidad</a
+						>
+						<a href="https://www.spotify.com/ec/legal/privacy-policy/"
+							>Política de Privacidad</a
+						>
+						<a href="https://www.spotify.com/ec/legal/cookies-policy/"
+							>Cookies</a
+						>
+						<a
+							href="https://www.spotify.com/ec/legal/privacy-policy/#s3"
+							>Información sobre los anuncios
+						</a>
+					</div>
+
+					<button class="btn-language">
+						<i class="fa-solid fa-globe"></i>
+						Español de España
+					</button>
+				</div>
+			</nav>
+
+			<!-- Contenido Principal -->
+			<section class="main-content">
+				<!-- 1 Fila -->
+				<div class="container-name-concentracion">
+					<h1 class="title-playlist">Enfoque</h1>
+					<div class="container-card-concentracion">
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/andes.jpg"
+										alt="andes"
+									/>
+								</div>
+								<h2>Entre Los Andes</h2>
+								<p>Concentrate con el aire de la cordillera de los andes.</p>
+							</div>
+						</div>
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/ab67706f00000002026bb258da135fa6d8744b0c.jpg"
+										alt="Deep Focus"
+									/>
+								</div>
+								<h2>Impulso Creativo</h2>
+								<p>
+									Bases suaves para inspirarte mientras trabajas.
+								</p>
+							</div>
+						</div>
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/qm.jpg"
+										alt="Instrumental study"
+									/>
+								</div>
+								<h2>Quiet Moment</h2>
+								<p>Gentle classical music to help you relax and reflect.</p>
+							</div>
+						</div>
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/ab67706f00000002fee0aa7c6bfc815873e45f9e.jpg"
+										alt="Jazz Vibes"
+									/>
+								</div>
+								<h2>Reading Adventure</h2>
+								<p>Scores and soundtracks for daring quests, epic journeys, and the greatest reading adventures.</p>
+							</div>
+						</div>
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/focus flow.jpg"
+										alt="Focus Flow"
+									/>
+								</div>
+								<h2>Focus Flow</h2>
+								<p>Uptempo instrumental hip hop beats.</p>
+							</div>
+						</div>
+						<div class="card-concentracion">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/concentracion/workday lounge.jpg"
+										alt="Workday Lounge"
+									/>
+								</div>
+								<h2>Workday Lounge</h2>
+								<p>Lounge and chill out music for your workday.</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- 2 Fila -->
+				<div class="container-name-spotify-playlists">
+					<h1 class="title-playlist">
+						Spotify Playlists
+					</h1>
+
+					<div class="container-card-spotify-playlists">
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/postpunk-playlist.jpg" alt="">
+								</div>
+								<h2>Post Punk</h2>
+								<p>This Heat, Public Image Limited, The Raincoats, Television, The Slits, Wire, The B-52's, Gan of Four, Throbbing Gristle, Joy Division, The Pop Group, Mission of Burma, Devo, The Residents, The Fall, A Certain Ratio, Cabaret Voltaire, The Residents, TV Personalities, Talking Heads, The Fall, Pere Ubu</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/industrial-playlist.jpg"
+										alt="Industrial Music"
+									/>
+								</div>
+								<h2>Industrial Music</h2>
+								<p>
+									ebm abrasive electronic aggressive experimental synth rock metal 80s 90s early 2000s 120 minutes avant garde social justice animal cruelty anti-war noise glitch idm dada electro-industrial dark ambient dance techno germany chicago wax trax uk nin ministry skinny puppy kmfdm
+								</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/madchester-playlist.jpg"
+										alt="Madchester"
+									/>
+								</div>
+								<h2>Madchester Set</h2>
+								<p>Happy Mondays, Stone Roses, Primal Scream, The Charlatans, Blur, The Wedding Present, The Farm, New Order</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/triphop-playlist.jpg"
+										alt="Trip Hop"
+									/>
+								</div>
+								<h2>Rock Classics</h2>
+								<p>
+									Massive Attack, Portishead, Air, Tricky, Moby
+								</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/goth-playlist.jpg"
+										alt="Chill Hits"
+									/>
+								</div>
+								<h2>Goth (Trad, Gothic Rock, New Wave, Post Punk)</h2>
+								<p>Sisters Of Mercy, Joy Division, The Cure, Siouxsie And The Banshees, Low Life, New Order, The Fall, The Mission</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/boc-playlist.jpg"
+										alt="Boards Of Canada"
+									/>
+								</div>
+								<h2>Top 10 Boards Of Canada Songs</h2>
+								<p>
+									Dayvan Cowboy, Roygbiv, Peackock Tail, Turquoise Hexagon Sun, Olson, Chromakey Dreamcoat, Music Is Math, Everything You Do Is A Balloon, Aquarius
+								</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img
+										src="img/spotify playlists/4ad-playlist.jpg"
+										alt=""
+									/>
+								</div>
+								<h2>4AD 30 Album, 30 Songs</h2>
+								<p>
+									Pixies, Throwing Muses, The Breeders,Red House Painters, Dead Can Dance, Glee Club, Mojave 3, Blonde Redhead
+								</p>
+							</div>
+						</div>
+
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/lynch.jpg" alt="">
+								</div>
+								<h2>David Lynch Soundtracks</h2>
+								<p>Pete's Boogie (Previously Unreleased), Dune: Main Title (Toto), Night Streets / Sandy And Jeffrey, Misteries Of Love - French Horn Solo</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/tool.jpg" alt="">
+								</div>
+								<h2>This Is TOOL</h2>
+								<p>Sober, Schism, Forty Six & 2, Stinkfist, Parabola, Invincible, Lateralus, Fear Inoculum, Jambi</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/spiritualized.jpg" alt="">
+								</div>
+								<h2>Top 20 Spiritualized Songs</h2>
+								<p>I Think I'm In Love, Ladies and Gentlemen We Are Floating in Space, Hey Jane, Broken Heart, Come Together, Cop Shoot Cop..., Shine a Light, Medication, Cool Waves</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/shoegaze.jpg" alt="">
+								</div>
+								<h2>Shoegaze</h2>
+								<p>You Made Me Realise, Vapour Trail, Carolyn's Fingers, Sometimes, Just Like Honey</p>
+							</div>
+						</div>
+						<div class="card-spotify-playlists">
+							<div class="card">
+								<div class="card-img">
+									<img src="img/spotify playlists/wh.jpg" alt="">
+								</div>
+								<h2>The Sound Of Witch House</h2>
+								<p>Wasted Time, Blood, Melatonin, IxC999, King, Lost, I Am One</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+			<!-- Parte final  -->
+			<footer class="footer">
+				<div class="container-links-footer">
+					<div class="links-footer">
+						<h3>Empresa</h3>
+						<a href="#">Acerca de</a>
+						<a href="#">Empleo</a>
+						<a href="#">For the Record</a>
+					</div>
+					<div class="links-footer">
+						<h3>Comunidades</h3>
+						<a href="#">Para artistas</a>
+						<a href="#">Desarrolladores</a>
+						<a href="#">Publicidad</a>
+						<a href="#">Inversores</a>
+						<a href="#">Proveedores</a>
+					</div>
+					<div class="links-footer">
+						<h3>Enlaces útiles</h3>
+						<a href="#">Asistencia</a>
+						<a href="#">App gratis para móvil</a>
+					</div>
+					
+
+
+
+				</div>
+				
+			</footer>
+		</main>
+
+
+
+
+
+		<div class="banner-bottom">
+			<div class="content">
+				<span>Muestra de spotify</span>
+				<p>
+					Regístrate para disfrutar de canciones y podcasts sin
+					límites, con anuncios ocasionales. No hace falta tarjeta de
+					crédito
+				</p>
+			</div>
+			<button class="btn-full">Registrarte gratis</button>
+		</div>
+
+		<!-- Script de FontAwesome -->
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Script personal -->
+		<script src="main.js"></script>
+	</body>
+</html>
